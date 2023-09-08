@@ -83,6 +83,9 @@ body{
 
 #booknow {
 	background-image: linear-gradient(rgba(0,0,10,0.6),rgba(0,0,10,0.6)),url(../images/booknow-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	height: 100vh;
 }
 
@@ -110,10 +113,6 @@ footer ul a{
 
 footer ul li i{
 	color: #fff;
-}
-
-footer p {
-
 }
 
 @media (max-width:992px) {
